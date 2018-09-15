@@ -1,0 +1,81 @@
+
+.counter-container {
+  display: flex;
+  margin: auto; 
+  height: 550px;
+  width: 700px; 
+  background-color: #d74b41;
+}
+
+.counter-cards{
+  display:flex;
+  margin: auto; 
+}
+
+.left-counter {
+  /* display: flex; */
+  margin-right: 50px;
+}
+
+.upper-left-flex-row,
+.lower-left-flex-row,
+.upper-right-flex-row,
+.lower-right-flex-row {
+  display: flex;
+}
+
+.upper-left-first-counter, 
+.upper-left-second-counter, 
+.lower-left-first-counter, 
+.lower-left-second-counter, 
+.upper-right-first-counter,
+.upper-right-second-counter, 
+.lower-right-first-counter, 
+.lower-right-second-counter {
+  background-color: #fbfbfb;
+  width: 90px;
+  height: 75px; 
+
+}
+
+/*Left Side Cards Themselves*/
+.upper-left-first-counter,
+.upper-left-second-counter,
+.lower-left-first-counter,
+.lower-left-second-counter {
+  margin-right: 10px;
+}
+
+/* Right Side Cards Themselves*/
+.upper-right-first-counter,
+.upper-right-second-counter,
+.lower-right-first-counter,
+.lower-right-second-counter {
+  margin-right: 10px; 
+}
+
+/*All upper cards*/
+.upper-left-first-counter,
+.upper-left-second-counter,
+.upper-right-first-counter,
+.upper-right-second-counter {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+  margin-bottom: 1px;
+  /* box-shadow: 0px 5px #888888; */
+
+}
+
+/*All lower cards*/
+.lower-left-first-counter,
+.lower-left-second-counter,
+.lower-right-first-counter,
+.lower-right-second-counter {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
